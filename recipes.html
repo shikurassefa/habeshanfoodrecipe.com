@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- styles.css -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+  <!-- fav-icon -->
+ <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <title>Simple Ethiopian Food Recipe</title>
+</head>
+<body>
+<!-- nav -->
+<nav class="navbar">
+  <header class="nav-header">
+    <a href="" class="logo">
+      <img src="./assets/recipes/my-logo.png" alt="">
+    </a>
+    <button class="nav-btn" id="navbtn">
+      <i class="fas fa-bars"></i>
+    </button>
+  </header>
+    <!-- links -->
+    <div class="nav-links" id="navlink">
+     
+       <a href="index.html" class="nav-link">home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="tags.html" class="nav-link">Tags</a>
+      <a href="recipes.html" class="nav-link">Recipes</a>
+      
+      <div class="nav-link contact-link">
+        <a href="contact.html" class="btn">Contact</a>
+      </div>
+    </div>
+  
+</nav>
+<!-- end of nav -->
+
+
+<main class="page">
+<!-- recipe-container -->
+<section class="recipe-containers">
+  <div class="tags-container">
+    <h4>Recipes</h4>
+    <a href="tag-template.html" class="tag-link">Beef(1)</a>
+    <a href="tag-template.html" class="tag-link">Breakfast(2)</a>
+    <a href="tag-template.html" class="tag-link">Carrots(3)</a>
+    <a href="tag-template.html" class="tag-link">Food(4)</a>
+  </div>
+
+  <div class="recipes-list">
+    <a href="single-recipe.html" class="recipe">
+      <img src="./assets/recipes/doro-wat.jpg" alt="doro-wat"
+      class="recipe-img img">
+      <h5>Doro Wate</h5>
+      <p>prep:30min|cook:1hr</p>
+    </a>
+
+    <a href="single-recipe.html" class="recipe">
+      <img src="./assets/recipes/koco.jpg" alt="doro-wat"
+      class="recipe-img img">
+      <h5>kocho</h5>
+      <p>prep:25min|cook:40min</p>
+    </a>
+
+    <a href="single-recipe.html" class="recipe">
+      <img src="./assets/recipes/kurt.jpg" alt="doro-wat"
+      class="recipe-img img">
+      <h5>kurt</h5>
+      <p>prep:5min|cook:10min</p>
+    </a>
+
+    <a href="single-recipe.html" class="recipe">
+      <img src="./assets/recipes/fr.jpg" alt="doro-wat"
+      class="recipe-img img">
+      <h5>Firfir</h5>
+      <p>prep:4min|cook:20min</p>
+    </a>
+  </div>
+</section>
+</main>
+<footer>
+<div>
+ &copy;
+ <span id="date"></span>
+Simple Habeshan Food Recipe
+<a href="">Buily by coder</a>
+</div>
+</footer>
+<script src="./js/app.js"></script>
+</body>
+</html>
